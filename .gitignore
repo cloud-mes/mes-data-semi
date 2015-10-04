@@ -1,0 +1,9 @@
+*.gem
+*.rbc
+.bundle
+.config
+Gemfile.lock
+pkg
+tmp
+.ruby-version
+*.sublime-workspace
