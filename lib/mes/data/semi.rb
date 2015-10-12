@@ -8,6 +8,7 @@ module Mes
       def self.load_samples
         Mes::Data.load_data('factories')
         Mes::Data.load_data('lot_types')
+        Mes::Data.load_data('order_types')
       end
     end
   end
