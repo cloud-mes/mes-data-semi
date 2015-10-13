@@ -10,6 +10,7 @@ module Mes
         Mes::Data.load_data('lot_types')
         Mes::Data.load_data('order_types')
         Mes::Data.load_data('hold_reasons')
+        Mes::Data.load_data('release_reasons')
       end
     end
   end
