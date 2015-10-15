@@ -12,6 +12,7 @@ module Mes
         Mes::Data.load_data('hold_reasons')
         Mes::Data.load_data('release_reasons')
         Mes::Data.load_data('reject_codes')
+        Mes::Data.load_data('bin_codes')
       end
     end
   end
