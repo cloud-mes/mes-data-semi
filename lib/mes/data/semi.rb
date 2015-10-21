@@ -15,6 +15,7 @@ module Mes
         Mes::Data.load_data('bin_codes')
         Mes::Data.load_data('step_codes')
         Mes::Data.load_data('machine_types')
+        Mes::Data.load_data('workflows')
       end
     end
   end
