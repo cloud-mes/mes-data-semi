@@ -1,14 +1,14 @@
 Mes::OrderType.create!([
   {
-    order_type: 'PP01',
+    name: 'PP01',
     description: 'Mass production'
   },
   {
-    order_type: 'ZRWK',
+    name: 'ZRWK',
     description: 'Rework'
   },
   {
-    order_type: 'ZNPD',
+    name: 'ZNPD',
     description: 'Engineering'
   }
 ])

@@ -1,14 +1,14 @@
 Mes::LotType.create!([
   {
-    lot_type: 'M',
+    name: 'M',
     description: 'Mass production'
   },
   {
-    lot_type: 'E',
+    name: 'E',
     description: 'Engineering'
   },
   {
-    lot_type: 'Q',
+    name: 'Q',
     description: 'Qual'
   }
 ])

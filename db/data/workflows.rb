@@ -1,8 +1,8 @@
 Mes::Workflow.create!([
   {
-    workflow_name: 'W1'
+    name: 'W1'
   },
   {
-    workflow_name: 'W2'
+    name: 'W2'
   }
 ])
