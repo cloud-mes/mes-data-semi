@@ -1,8 +1,28 @@
-Mes::Workflow.create!([
-  {
-    name: 'W1'
-  },
-  {
-    name: 'W2'
-  }
-])
+Mes::Workflow.new(name: 'MICRO-SD-WORKFLOW') do |w|
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2084'), sequence:  1)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2053'), sequence:  2)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2083'), sequence:  3)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2078'), sequence:  4)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2800'), sequence:  5)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2205'), sequence:  6)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2090'), sequence:  7)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2100'), sequence:  8)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2054'), sequence:  9)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2071'), sequence: 10)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2102'), sequence: 11)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2206'), sequence: 12)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2091'), sequence: 13)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2101'), sequence: 14)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '2120'), sequence: 15)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3013'), sequence: 16)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3020'), sequence: 17)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3050'), sequence: 18)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3055'), sequence: 19)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3060'), sequence: 20)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3057'), sequence: 21)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3019'), sequence: 22)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3067'), sequence: 23)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '3070'), sequence: 24)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '5105'), sequence: 25)
+  w.steps.build(step_code: Mes::StepCode.find_by!(name: '6000'), sequence: 26)
+end.save!
