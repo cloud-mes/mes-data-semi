@@ -1,17 +1,17 @@
 Mes::MachineType.create!([
   {
-    machine_type: 'MOLD',
+    name: 'MOLD',
     description: 'Molding type machine',
     calibration_frequency_seconds: 1.week,
     small_pm_frequency_seconds: 1.month,
     large_pm_frequency_seconds: 6.months
   },
   {
-    machine_type: 'DA',
+    name: 'DA',
     description: 'Die attach'
   },
   {
-    machine_type: 'WB',
+    name: 'WB',
     description: 'Wire bonding'
   }
 ])
