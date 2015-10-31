@@ -18,6 +18,7 @@ module Mes
         Mes::Data.load_data('workflows')
         Mes::Data.load_data('certifications')
         Mes::Data.load_data('products')
+        Mes::Data.load_data('machines')
       end
     end
   end
