@@ -19,6 +19,7 @@ module Mes
         Mes::Data.load_data('certifications')
         Mes::Data.load_data('products')
         Mes::Data.load_data('machines')
+        Mes::Data.load_data('components')
       end
     end
   end
