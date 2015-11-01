@@ -21,6 +21,7 @@ module Mes
         Mes::Data.load_data('machines')
         Mes::Data.load_data('component_types')
         Mes::Data.load_data('components')
+        Mes::Data.load_data('tool_parts')
       end
     end
   end
