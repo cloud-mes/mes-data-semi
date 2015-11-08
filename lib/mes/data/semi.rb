@@ -20,6 +20,7 @@ module Mes
         Mes::Data.load_data('workflows')
         Mes::Data.load_data('certifications')
         Mes::Data.load_data('products')
+        Mes::Data.load_data('component_categories')
         Mes::Data.load_data('component_types')
         Mes::Data.load_data('components')
         Mes::Data.load_data('tool_parts')
