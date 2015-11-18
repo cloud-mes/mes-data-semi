@@ -29,6 +29,7 @@ module Mes
         Mes::Data.load_data('order_type_settings')
         Mes::Data.load_data('low_yield_settings')
         Mes::Data.load_data('step_process_settings')
+        Mes::Data.load_data('step_process_rejects')
       end
     end
   end
